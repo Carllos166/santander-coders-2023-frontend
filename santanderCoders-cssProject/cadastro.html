@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="precoonect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@500;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Cadastro - Santander Coders - CSS Project</title>
+  </head>
+  <body>
+    <header>
+      <figure>
+        <img src="public/hero.svg" alt="Banner principal" />
+      </figure>
+      <h1><span>We</span> Form</h1>
+    </header>
+
+    <main class="main-cadastro">
+      <section class="section title-container">
+        <h2 class="title-cadastro">
+            <span>
+                <a href="/home.html"> < </a>
+            </span>
+             Nova 
+             <span>
+                Entidade
+            </span>
+        </h2>
+      </section>
+
+      <section class="section form">
+        <form action="" method="post">
+          <fieldset>
+            <label for="input-name">Nome</label>
+            <input type="text" name="nome" id="input-name" />
+
+            <label for="input-expertise">Campo de atuação</label>
+            <select name="campo_de_atuacao" id="input-expertise">
+              <option value=""></option>
+            </select>
+
+            <div class="rowIcon">
+              <label for="input-points" class="labelIcon">Pontos de coleta</label>
+              <input type="text" name="pontos_de_coleta" id="input-points" />
+              <span>+</span>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+
+      <section class="section btn-container">
+        <div class="btn btn-aqua">
+          <a href="/cadastro.html">
+            <button>Cadastrar</button>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer style="display: none"></footer>
+  </body>
+</html>
